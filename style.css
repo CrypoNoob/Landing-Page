@@ -4,15 +4,26 @@ body{
 }
 .hero, .footer{
   background-color: #1f2937;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 .logo{
   width: 100px;
   height: auto;
 }
-.logo,.links-header{}
-.header{
+.secondery-hero,.links-header{
+  font-size: 18px;
+  color: #E5E7EB;
+}
+.links-header{
+  margin-left:auto;
+  display: flex;
+  gap:16px;
+}
+.header.logo , .header{
   display:flex;
   align-items: center;
+  padding-top: 8px;
 }
 h1{
   color: #f9faf8;
