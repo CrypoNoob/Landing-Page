@@ -1,0 +1,25 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.hero, .footer{
+  background-color: #1f2937;
+}
+.logo{
+  width: 100px;
+  height: auto;
+}
+.logo,.links-header{}
+.header{
+  display:flex;
+  align-items: center;
+}
+h1{
+  color: #f9faf8;
+  font-size:48px ;
+  font-weight:900;
+}
+.secondery-hero ,a:link,a:visited{
+  color: #E5E7EB;
+  text-decoration: none;
+}
