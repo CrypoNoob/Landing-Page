@@ -2,9 +2,6 @@ body{
   margin: 0;
   padding: 0;
 }
-/**{
-  border:1px solid red;
-}*/
 .logo{
   font-size: 24px;
   color: #F9FAF8;
@@ -35,7 +32,9 @@ body{
   background-color:#6a6b6d;
   color: white;
 }
-
+.hero-margin{
+  margin-top: 15px;
+}
 .hero-left,.hero-right{
   flex:1;
 }
@@ -65,8 +64,8 @@ a:link,a:visited{
 button{
   background-color: #3882f6;
   color: white;
-  height: 25px;
-  width: 96px;
+  width: 175px;
+  height: 40px;
   border-radius: 6px;
 }
 h2{
@@ -100,7 +99,7 @@ figcaption.caption{
   margin-right: 25%;
   width:50%;
   height: auto;
-  padding-top: 96px;
+  padding-top: 0px;
   padding-bottom: 96px;
 }
 .random-info,.smort{
@@ -110,8 +109,8 @@ figcaption.caption{
     margin-top: 0;
     margin-bottom: 0;
     padding: 0;
-    margin-left: 24%;
-    margin-right: 24%;}
+    margin-left: 30%;
+    margin-right: 30%;}
 
 figure{
   display: block;
@@ -135,4 +134,35 @@ blockquote.quote{
   font-size: 24px;
   text-align: left;
   margin-left:50%;
+}
+.action{
+  background-color:#3882f6;
+  color:white;
+  margin:96px 30%;
+  border-radius: 12px;
+  padding:32px;
+  display: flex;
+  justify-content: space-between;
+}
+h3{
+  font-size: 24px;
+}
+.no-margin{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.last-call{
+  width: 175px;
+  height: 40px;
+  border-color: white;
+  align-self: flex-end;
+  border-width: 3px;
+}
+.footer{
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  padding:18px;
 }
