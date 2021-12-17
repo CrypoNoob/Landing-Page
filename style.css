@@ -109,9 +109,15 @@ figcaption.caption{
     margin-top: 0;
     margin-bottom: 0;
     padding: 0;
-    margin-left: 30%;
-    margin-right: 30%;}
-
+    }
+.random-info{
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.smort{
+  margin-left: 25%;
+  margin-right: 25%;
+}
 figure{
   display: block;
   margin-block-start: 10px;
@@ -124,7 +130,6 @@ figure{
   padding: 96px;
 }
 blockquote.quote{
-  width: 70%;
   font-size: 36px;
   font-weight: lighter;
   color: #1f2937;
