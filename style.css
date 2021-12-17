@@ -2,11 +2,16 @@ body{
   margin: 0;
   padding: 0;
 }
-
-
+/**{
+  border:1px solid red;
+}*/
 .logo{
   font-size: 24px;
   color: #F9FAF8;
+}
+.footer{
+  color:#E5E7EB;
+  text-align: center;
 }
 .hero, .footer{
   background-color: #1f2937;
@@ -70,35 +75,64 @@ h2{
   font-weight: 900;
   color: #1f2937;
 }
+.second{
+  background-color: white;
+}
+figcaption.caption{
+  text-align: center;
+  padding: 12%;
+}
 .blue-block{
+  vertical-align: top;
   display: inline-block;
   align-self: center;
   margin:16px;
   width:150px;
   height:150px;
-  flex:0 0 auto;
   border:3px solid #3882f6;;
   border-radius: 12px;
 }
-  
-.container{
+.block-info{
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-self: center;
-  gap: auto;
+  justify-content: center;
+  align-items:center;
+  margin-left: 25%;
+  margin-right: 25%;
+  width:50%;
+  height: auto;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
-  .random-info{
-    display: flex;
+.random-info,.smort{
+  display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 20%;
-    margin-right: 20%;
     margin-top: 0;
     margin-bottom: 0;
     padding: 0;
+    margin-left: 24%;
+    margin-right: 24%;}
+
+figure{
+  display: block;
+  margin-block-start: 10px;
+  margin-block-end:10px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
-.block-info{
-  display: flex;
-  
+.quote-section{
+  background-color: #E5E7EB;
+  padding: 96px;
+}
+blockquote.quote{
+  width: 70%;
+  font-size: 36px;
+  font-weight: lighter;
+  color: #1f2937;
+  margin: 0;
+}
+.side-quest{
+  font-size: 24px;
+  text-align: left;
+  margin-left:50%;
 }
